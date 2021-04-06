@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:androi="http://schemas.android.com/apk/res/android"
+    androi:layout_height="wrap_content"
+    androi:layout_width="match_parent"
+    xmlns:cardview="http://schemas.android.com/apk/res-auto"
+    cardview:cardCornerRadius="6dp"
+    cardview:cardElevation="3dp"
+    cardview:cardUseCompatPadding="true">
+
+    <LinearLayout
+        androi:layout_width="match_parent"
+        androi:layout_height="wrap_content"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_margin="5dp"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+        <TextView
+            androi:layout_width="match_parent"
+            androi:layout_height="wrap_content"
+            androi:id="@+id/text_nama_mahasiswa"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/text_npm_mahasiswa"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/text_nohp_mahasiswa"/>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

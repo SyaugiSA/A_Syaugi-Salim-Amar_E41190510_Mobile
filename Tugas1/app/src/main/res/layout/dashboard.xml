@@ -21,7 +21,7 @@
         android:layout_height="wrap_content"
         android:text="Linier Layout"
         android:layout_marginTop="120dp"
-        android:textSize=""/>
+        android:textSize="20sp"/>
 
     <Button
         android:layout_width="100dp"

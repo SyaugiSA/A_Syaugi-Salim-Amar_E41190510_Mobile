@@ -9,4 +9,14 @@
     <string name="login" />
     <string name="email" />
     <string name="password">password</string>
+    <string-array name="country">
+        <item>Afgganistan</item>
+        <item>Albania</item>
+        <item>Algeria</item>
+        <item>USA</item>
+        <item>Indonesia</item>
+        <item>Lebanon</item>
+        <item>Russia</item>
+        <item>China</item>
+    </string-array>
 </resources>
